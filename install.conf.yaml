@@ -7,3 +7,4 @@
 
 - link:
     $HOME/.config/nvim/init.vim : init.vim
+    $HOME/.zshrc : zshrc

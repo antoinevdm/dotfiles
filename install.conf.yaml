@@ -6,4 +6,4 @@
 - clean: ['$HOME']
 
 - link:
-    $HOME/.vimrc: vimrc
+    $HOME/.config/nvim/init.vim : init.vim

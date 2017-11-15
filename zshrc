@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/Antoinevdm/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -82,9 +82,7 @@ source $ZSH/oh-my-zsh.sh
 # neo vim alias 
 alias v='nvim'
 alias vim='nvim'
-alias vi='nvim'<Paste>
+alias vi='nvim'
 
-
-
-source "/Users/Antoinevdm/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+# source "/Users/Antoinevdm/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 export TERM=xterm-256color

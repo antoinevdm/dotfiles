@@ -84,5 +84,8 @@ alias v='nvim'
 alias vim='nvim'
 alias vi='nvim'
 
+#neovim as default editor (git for example) 
+export VISUAL=nvim
+export EDITOR=nvim
 # source "/Users/Antoinevdm/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 export TERM=xterm-256color

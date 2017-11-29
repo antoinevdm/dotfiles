@@ -31,6 +31,10 @@ Plug 'scrooloose/nerdcommenter'
 " Snippet autocomplete 
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
+" syntax and indentation for many languages 
+Plug 'sheerun/vim-polyglot'
+" auto double for quote and brackets 
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 set showcmd
@@ -69,3 +73,5 @@ let g:vimtex_compiler_latexmk = {
          \   '-interaction=nonstopmode',
          \ ],
 	 \}
+" disapble polyglot for vim-latex (not working)
+let g:polyglot_disabled = ['latex']

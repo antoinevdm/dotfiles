@@ -7,7 +7,9 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="spaceship"
+if [ "$(uname 2> /dev/null)" != "Linux"  ]; then
+	ZSH_THEME="spaceship"
+fi
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -79,12 +81,12 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# neo vim alias 
+# neo vim alias
 alias v='nvim'
 alias vim='nvim'
 alias vi='nvim'
 
-#neovim as default editor (git for example) 
+#neovim as default editor (git for example)
 export VISUAL=nvim
 export EDITOR=nvim
 # source "/Users/Antoinevdm/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
